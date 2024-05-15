@@ -1,0 +1,26 @@
+.clrDisplay{
+    border: 2px black double;
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+}
+.inputBlock{
+    height: 20px;
+    width: 200px;
+    padding: 5px;
+    font-size:larger;
+    font-weight: 600;
+}
+.btn3{
+    height: 50px;
+    width: 340px;
+    border-radius: 5px;
+}
+main,.clrDisplay,.innerDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn3,.inputBlock,.clrDisplay{
+    margin-top: 20px;
+}
