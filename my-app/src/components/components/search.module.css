@@ -1,0 +1,17 @@
+.searchForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+}
+.searchInput{
+    background-color: whitesmoke;
+    border: none;
+    border-bottom: 5px rgb(224, 203, 203) dotted;
+    padding: 2px;
+    font-size: medium;
+    font-weight: 500;
+}
+.searchInput:focus{
+    outline: none;
+}
